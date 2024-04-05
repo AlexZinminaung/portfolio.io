@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+
+}
+
+body {
+    background-color: midnightblue;
+}
+
+
+a {
+    cursor: pointer;
+}
+/* NavBar Section */
+
+/* for desktop navbar */
+.desktop-navbar {
+    background-color: rgb(46,46, 146);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0px 50px;
+}
+
+.desktop-navbar ul {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+
+}
+
+.desktop-navbar a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 30px;
+    margin-right: 0px;
+}
+
+.desktop-navbar a:hover {
+    text-decoration: underline;
+}
+
+
+/* for mobile navbar */
+.mobile-navbar {
+    display: none;
+    background-color: rgb(46,46, 146);
+    justify-content: space-between;
+    padding: 0px 50px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* setting mobile menu btn */
+#menu-btn {
+    color: white;
+    border: 2px solid white;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 3;
+
+
+}
+
+/* setting mobile menu display none */
+
+#menu {
+    display: none;
+    position: absolute;
+    top:58px;
+    left: 0px;
+    z-index: 2;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    
+
+}
+
+#menu ul {
+    list-style-type: none;
+
+}
+
+#menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.5rem;
+    padding: 20px;
+    display: block;
+}
+
+#menu a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .mobile-navbar {
+        display: flex;
+    }
+    .desktop-navbar {
+        display: none;
+    }
+}
+
+
+/* Main section */
+main {
+    /*nothing to motify yet  */
+
+
+}
+
+/* binner section for desktop */
+.binner {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkblue;
+
+}
+
+
+.binner .caption {
+    padding: 100px;
+    padding-top: 10%;
+    width: 40%;
+    font-size: 2.5rem;
+    flex-shrink: 1;
+    color: white;
+    
+    
+}
+
+.binner #learn-more-btn {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+#learn-more-btn:hover {
+    background-color: rgba(255,255,255,0.3);
+    color: black;
+    border-color: black;
+    
+}
+
+
+.binner .img-container {
+    width: 60%;
+    padding: 50px;
+    overflow: hidden;
+    flex-shrink: 1.5;
+    
+
+}
+
+
+.img-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+
+
+#expand-div {
+    width: 100%;
+    height: 0px;
+    background-color: rgb(85, 125, 135);
+    transition: all 0.4s;
+}
+
+/* binner hero 1 */
+.hero1 {
+    flex-direction: row-reverse !important;
+    background-color: purple;
+}
+
+.hero2 {
+    background-color: midnightblue;
+}
+
+
+
+/* binnner for mobile */
+
+@media only screen and (max-width: 600px){
+    .binner {
+        flex-direction: column-reverse;
+        
+    }
+
+    .binner .caption {
+        width: 100%;
+    }
+
+    .binner .img-container {
+        width: 100%;
+    }
+
+    .hero1 {
+        flex-direction: column-reverse !important;
+    }
+}
+
+
+
+/* footer section */
+
+footer {
+    min-height: 300px;
+    background-color: rgba(0, 0, 0, 0.35);
+}

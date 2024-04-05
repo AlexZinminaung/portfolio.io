@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* header section  */
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: rgb(106, 99, 99);
+    justify-content: right;
+}
+
+.navbar a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color:black;
+    text-decoration: none;
+    transition: background-color 1s;
+    
+}
+
+.navbar a:hover {
+    background-color: rgb(23, 66, 209);
+}
+
+#current {
+    background-color: rgb(23, 66, 209);
+}
+
+/* For moble navbar */
+
+
+
+.navbar-mobile {
+    display: none;
+    justify-content: space-between;
+}
+
+
+
+/* Main section  */
+.binner {
+    height: 900px;
+}
+
+
+/* footer section */
+
+
+footer {
+    background-color: rgb(106, 99, 99);
+    padding-top: 100px;
+    min-height: 300px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+/* media for mobile */
+
+@media only screen and (max-width: 568px ) {
+    .navbar-mobile {
+        display: flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .binner {
+        width: 80%;
+    }
+    .binner h1 {
+        font-size: 2rem;
+    }
+}
+
