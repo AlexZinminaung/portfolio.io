@@ -1,0 +1,62 @@
+.skills-and-projects
+{
+    background-color: #3e738064;
+    min-height: 700px;
+
+}
+
+.skills-and-projects h1  {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 30px;
+   
+}
+
+.skills-and-projects p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 50px;
+    text-transform: capitalize;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 10px 1rem;
+
+}
+
+.skills img {
+    background-color: #e5e6eb;
+    border-radius: 10px;
+
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+}
+
+.projects a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+
+}
+
+
+.projects img {
+    width: 50px;
+}
+
