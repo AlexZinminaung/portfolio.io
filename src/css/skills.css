@@ -15,7 +15,6 @@
 .skills-and-projects p {
     font-size: 1.5rem;
     text-align: center;
-    padding: 50px;
     text-transform: capitalize;
 
 }
@@ -25,8 +24,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
-    padding: 10px 1rem;
+
 
 }
 
@@ -76,6 +74,7 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skill-container .description {

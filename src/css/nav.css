@@ -128,6 +128,22 @@ nav div span {
         width: 250px !important;
     }
 
+    .skill-container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .skill-container .img-container {
+        width: 100% !important;
+        padding: 0;
+        flex-direction: row;
+    }
+
+
+
+    .skill-container .description {
+        width: 100% !important;
+        padding: 0;
+    }
 }
 
 
