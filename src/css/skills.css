@@ -60,3 +60,25 @@
     width: 50px;
 }
 
+.skill-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 10px
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.skill-container .img-container {
+    width: 30%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skill-container .description {
+    width: 60%;
+    
+}

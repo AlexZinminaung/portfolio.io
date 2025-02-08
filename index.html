@@ -15,6 +15,7 @@
     <!-- Script -->
     <script src="./src/scripts/menu-btn.js" defer></script>
     <script src="./src/scripts/animation.js" defer></script>
+    <script src="./src/scripts/typewriter.js" defer></script>
 </head>
 <body>
     <nav>
@@ -37,21 +38,66 @@
     </nav>
 
     <section class="binner">
-        <p class="profile-animation animated">My Name is <strong id="whoami">zin min aung</strong> , website developer. </p>
+        <div>
+            <p class="profile-animation animated" id="typewriter-loop">I am zin min aung, website developer. </p>
+        </div>
         <img src="./src/imgs/profile.png" id="profile-photo">
     </section>
 
     <section class="skills-and-projects"  id="projects">
         <h1>Skills</h1>
-        <p>I know Html, Css, javascript, git, github, react.</p>
-        <div class="skills animated">
 
-            <img src="./src/imgs/html.png">
-            <img src="./src/imgs/css.png">
-            <img src="./src/imgs/js.png">
-            <img src="./src/imgs/git.png">
-            <img src="./src/imgs/github.png">
+        <div class="skills animated skill-container">
+            <div class="img-container">
+                <img src="./src/imgs/html.png">
+                <img src="./src/imgs/css.png">
+                <img src="./src/imgs/js.png">
+            </div>
+
+            <div class="description">
+                <p>I have strong expertise in HTML, CSS, and JavaScript, 
+                    building responsive and dynamic web applications with clean, maintainable code.</p>
+            </div> 
+        </div>
+
+        <div class="skills animated skill-container reverse">
+            <div class="img-container">
+                <img src="./src/imgs/git.png">
+                <img src="./src/imgs/github.png">
+            </div>
+
+            <div class="description">
+                <p>I have experience with Git and GitHub, efficiently managing version control, 
+                    collaborating with teams, and maintaining clean, structured repositories. </p>
+            </div> 
+        </div>
+
+        <h1>Frontend framwork with React</h1>
+
+        <div class="skills animated skill-container">
+
             <img src="./src/imgs/react.png">
+
+            <div class="description">
+                <p>I have experience building dynamic and interactive web applications with React. 
+                    I specialize in creating reusable components, managing state efficiently, and handling API integrations. 
+                    I write clean, optimized code while ensuring responsiveness and performance.</p>
+            </div> 
+        </div>
+
+        <h1>Backend framwork with Node.js Express.js Mongodb</h1>
+
+        <div class="skills animated skill-container reverse">
+            <div class="img-container">
+                <img src="./src/imgs/node.png">
+                <img src="./src/imgs/express.png">
+                <img src="./src/imgs/database.png">
+            </div>
+
+            <div class="description">
+                <p>I develop efficient and scalable backend systems using Node.js, Express.js, and MongoDB. 
+                   I design RESTful APIs, handle authentication and authorization, and work with databases to build full-stack applications. </p>
+            </div> 
         </div>
 
         <h1>Here Are My Projects</h1>

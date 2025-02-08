@@ -92,6 +92,11 @@ nav div span {
      text-transform: capitalize;
      text-align: center;
  }
+
+
+ .binner div {
+    width: 50%;
+ }
  
  #profile-photo {
      width: 600px;
