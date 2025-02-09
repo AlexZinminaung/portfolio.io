@@ -29,3 +29,8 @@ html {
     filter: blur(0px);
     transform: translateX(0);
   }
+
+  hr {
+    width: 90%;
+    margin: auto;
+  }

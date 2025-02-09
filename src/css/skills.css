@@ -16,6 +16,8 @@
     font-size: 1.5rem;
     text-align: center;
     text-transform: capitalize;
+    line-height: 2.5rem;
+    word-spacing: 0.5rem;
 
 }
 
@@ -50,7 +52,7 @@
     align-items: center;
     gap: 1rem;
     text-decoration: none;
-
+    margin: 2rem;
 }
 
 
@@ -81,3 +83,5 @@
     width: 60%;
     
 }
+
+ 
