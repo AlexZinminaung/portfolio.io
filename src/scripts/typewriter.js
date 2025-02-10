@@ -1,4 +1,4 @@
-const text = "I am zin min aung, website developer.";
+const text = "zin min aung, website developer.";
 let index = 0;
 let isDeleting = false;
 
